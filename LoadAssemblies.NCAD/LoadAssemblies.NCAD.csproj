@@ -6,11 +6,16 @@
 		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
 		<UseWindowsForms>true</UseWindowsForms>
+		<Platform>x64</Platform>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="FontAwesome5" Version="2.1.11" />
-	  <PackageReference Include="nanoCadCore23.1.NET" Version="1.0.0" />
+		<PackageReference Include="FontAwesome5" Version="2.1.11" />
+		<PackageReference Include="nanoCadCore23.1.NET" Version="1.0.0">
+			<IncludeAssets>compile</IncludeAssets>
+			<ExcludeAssert></ExcludeAssert>
+		</PackageReference>
 	</ItemGroup>
 
 </Project>
