@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.NCAD", "Load
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.ACAD", "LoadAssemblies.ACAD\LoadAssemblies.ACAD.csproj", "{1DC6F416-0DAB-4B92-ACDE-A4A435946E43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.Views", "LoadAssemblies.Views\LoadAssemblies.Views.csproj", "{D67FFE3A-5D78-44FB-BDEF-2E814AA2556A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1DC6F416-0DAB-4B92-ACDE-A4A435946E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC6F416-0DAB-4B92-ACDE-A4A435946E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC6F416-0DAB-4B92-ACDE-A4A435946E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67FFE3A-5D78-44FB-BDEF-2E814AA2556A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67FFE3A-5D78-44FB-BDEF-2E814AA2556A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67FFE3A-5D78-44FB-BDEF-2E814AA2556A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67FFE3A-5D78-44FB-BDEF-2E814AA2556A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
