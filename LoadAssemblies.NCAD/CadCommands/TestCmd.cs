@@ -1,6 +1,4 @@
-﻿
-
-using HostMgd.ApplicationServices;
+﻿using HostMgd.ApplicationServices;
 using LoadAssemblies.Views.Windows;
 using Teigha.Runtime;
 
