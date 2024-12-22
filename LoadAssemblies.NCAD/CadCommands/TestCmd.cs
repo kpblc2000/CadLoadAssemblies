@@ -1,5 +1,5 @@
 ﻿using HostMgd.ApplicationServices;
-using LoadAssemblies.Views.Windows;
+using LoadAssemblies.Views.NET.Windows;
 using Teigha.Runtime;
 
 namespace LoadAssemblies.NCAD.CadCommands

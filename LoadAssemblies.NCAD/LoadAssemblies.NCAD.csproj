@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\LoadAssemblies.Views\LoadAssemblies.Views.csproj" />
+		<ProjectReference Include="..\LoadAssemblies.Views\LoadAssemblies.Views.NET.csproj" />
 	</ItemGroup>
 
 	<Target Name="CopyDLLs" AfterTargets="PostBuildEvent">

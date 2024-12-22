@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadAssemblies.NCAD", "Load
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.ACAD", "LoadAssemblies.ACAD\LoadAssemblies.ACAD.csproj", "{1DC6F416-0DAB-4B92-ACDE-A4A435946E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.Views", "LoadAssemblies.Views\LoadAssemblies.Views.csproj", "{7CDB7528-A944-455E-A944-BD5EE674925A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.Views.NET", "LoadAssemblies.Views\LoadAssemblies.Views.NET.csproj", "{7CDB7528-A944-455E-A944-BD5EE674925A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
