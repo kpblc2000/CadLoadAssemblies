@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace LoadAssemblies.Views.Windows
+namespace LoadAssemblies.Views.NET.Windows
 {
     /// <summary>
     /// Логика взаимодействия для TestWindow.xaml
