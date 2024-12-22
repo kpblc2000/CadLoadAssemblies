@@ -1,17 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="nanoCadCore23.1.NET" Version="1.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="nanoCadCore23.1.NET" Version="1.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LoadAssemblies.Views\LoadAssemblies.Views.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\LoadAssemblies.Views\LoadAssemblies.Views.csproj" />
+	</ItemGroup>
+
+	<Target Name="CopyDLLs" AfterTargets="PostBuildEvent">
+		<ItemGroup>
+			<FontAwesomeDll Include="$(SolutionDir)packages\**\net6.0-windows7.0\*.dll" />
+		</ItemGroup>
+		<Copy SourceFiles="@(FontAwesomeDll)" DestinationFolder="$(TargetDir)" SkipUnchangedFiles="true" />
+	</Target>
 
 </Project>
